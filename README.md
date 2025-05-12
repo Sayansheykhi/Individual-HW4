@@ -1,70 +1,56 @@
-CSE360 Interactive Peer-Review & Q&A Platform
+# HW4 - Staff Q&A JavaFX Application
 
-This project is a JavaFX desktop application designed for students, instructors, reviewers, and administrators to collaborate on coursework through real-time Q&A, peer reviews, and private messaging.
+This project is a **JavaFX desktop application** designed for staff users to manage and moderate Q&A content in an educational system. It allows staff to view, filter, and edit questions, send private feedback to users, and view summary reports.
 
-📁 Project Structure
+---
 
-src/
-├─ main/
-│  ├─ java/com/cse360/
-│  │  ├─ controllers/      # JavaFX controller classes for UI pages
-│  │  ├─ models/           # Domain classes: User, Question, Answer, Review, etc.
-│  │  ├─ utils/            # Validators, recognizers, DatabaseHelper
-│  └─ resources/
-│     ├─ fxml/             # FXML layout files
-│     └─ styles/           # CSS stylesheets
-└─ test/
-   ├─ java/com/cse360/     # JUnit test classes
+## 📁 Project Structure
 
-🚀 Features
 
-✅ Role-based dashboards for Admin, Instructor, Reviewer, and Student
+---
 
-✅ Real-time Q&A: post questions, submit answers, and comment
+## 🚀 Features
 
-✅ Interactive peer-review scorecard for structured feedback
+- ✅ View and moderate all submitted questions and answers
+- ✅ Filter by keyword and resolution status
+- ✅ Send private feedback messages to students and reviewers
+- ✅ View summary reports (resolved, unanswered, total answers, etc.)
+- ✅ Full unit test coverage using JUnit
 
-✅ Secure, in-app private messaging with unread indicators
+---
 
-✅ Account setup wizard with email, username, and password validation
+## 🛠️ Technologies
 
-✅ Automatic activity logging and summary report generation
+- Java 11+
+- JavaFX
+- JUnit 5
+- Eclipse (recommended IDE)
 
-🛠️ Technologies
+---
 
-Java 17+
+## 🧪 Running the Project
 
-JavaFX 17+
+### ✅ In Eclipse:
+1. Clone or download this repository.
+2. Open Eclipse and select **File → Import → Existing Projects into Workspace**.
+3. Choose the HW4 folder.
+4. Run any *.java class with a show(Stage stage) method as a **JavaFX Application**.
 
-Maven for build and dependency management
+### ✅ To Run Tests:
+- Right-click on the test/ folder → **Run As → JUnit Test**.
+- Make sure JUnit 5 is available on your classpath.
 
-JUnit 5 for unit testing
+---
 
-SQLite or MySQL (configurable via DatabaseHelper)
+## 📄 Author
 
-🧪 Running the Project
+**Sajjad (Sayan)**  
+*Staff Q&A JavaFX UI - HW4 @ ASU*
 
-✅ In Your IDE
+---
 
-Clone or download this repository.
+## 💬 Notes
 
-Import as a Maven project (File → Import → Existing Maven Project).
-
-Run StartCSE360.java as a JavaFX Application.
-
-✅ To Run Tests
-
-Right-click on the src/test/java folder → Run As → JUnit Test.
-
-📄 Author
-
-Sajjad "Sayan" SheykhiB.S. Computer Science @ ASU
-
-💬 Notes
-
-Ensure your database is set up and the JDBC URL is configured in DatabaseHelper.java.
-
-The UI is designed for academic demonstration and can be extended for production use.
-
-Contributions, issues, and suggestions are welcome!
-
+- This project assumes a pre-existing SQLite (or similar) backend via DatabaseHelper.
+- UI is kept lightweight for academic demonstration purposes.
+- Feedback and improvements welcome!
