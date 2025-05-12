@@ -44,7 +44,7 @@ This project is a **JavaFX desktop application** designed for staff users to man
 
 ## 📄 Author
 
-**Sajjad (Sayan)**  
+**Sajjad **  
 *Staff Q&A JavaFX UI - HW4 @ ASU*
 
 ---
